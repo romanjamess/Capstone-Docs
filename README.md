@@ -65,7 +65,7 @@ fetch(`${API}/order`);
          "username": "Roman",
          "password": "$2b$10$fIgbTBZV.9qY8Y65geHWMeh0hkg7gjY8uM.QVJCx5OvwZ5/C66TFi",
          "createdAt": "2023-09-30T01:38:38.435Z",
-         "role": "Customer",
+         "role": "Customer"
         },
 "menuItem": [
    {	
@@ -78,7 +78,7 @@ fetch(`${API}/order`);
      "name": "Krabby Patty",
      "description": "Created from the gods themselves..."
    }
- ],
+ ]
 },
    {
     "id": "8e45d339-71e5-4e48-b08d-23b3e8b66c78",
@@ -91,7 +91,7 @@ fetch(`${API}/order`);
          "username": "Roman",
          "password": "$2b$10$fIgbTBZV.9qY8Y65geHWMeh0hkg7gjY8uM.QVJCx5OvwZ5/C66TFi",
          "createdAt": "2023-09-30T01:38:38.435Z",
-         "role": "Customer",
+         "role": "Customer"
         }
 "menuItem": [
    {
@@ -125,12 +125,12 @@ fetch(`${API}/menu`);
     {
       "id": "0a817d6e-be92-430e-a6f4-719801738c64",
       "name": "Krabby Patty",
-      "category": Burgers,
+      "category": Burgers
     }
     {		
       "id": "df7595d1-bacf-4656-81b7-d989beff0d86",
       "name": "Kelp Shake",
-      "category": Drinks,
+      "category": Drinks
     }
    ]
  }
@@ -158,41 +158,6 @@ fetch(`${API}/menuItem/280c3437-69aa-4f35-bd67-2d11b5cf0596`);
 }
 ```
 
-
-## PUT /order/orderId
-
-### Request:
-
-```js
-fetch(`${API}/posts/28006818-1695-4984-83e9-bf0e6a864e08`, {
-  method: "PUT",
-  headers: {
-    "Content-Type": "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjExZDIzMy1mZTE0LTQ2NzgtYjAwMC03YzJkNTFkYmE3MWEiLCJpYXQiOjE2OTQ1MjE5Nzl9.6qiWcCWgOA3Wvie8pjimOs1j8irhOQy6WfdVUNhUhkU",
-  },
-  body: JSON.stringify({
-    title: "Review of the new iphone 13 mini - Updated!", // optional
-    text: "it's not actually that good!", // optional
-  }),
-});
-```
-
-### Response:
-
-```js
-{
-  "success": true,
-  "post": {
-    "id": "65ce7d00-1a16-41af-b333-58cc84d9ffd4",
-    "text": "it's not actually that good!",
-    "title": "Review of the new iphone 13 mini - Updated!",
-    "userId": "03ca1281-ddb3-4421-a8f6-22c76b6a99b8",
-    "subredditId": "f3e47327-808e-4343-b6d9-bed030c2e9ff",
-    "parentId": null
-  }
-}
-```
 
 ## DELETE /users/:userId
 
