@@ -45,7 +45,7 @@ fetch(`${API}/users`);
 ### Request:
 
 ```js
-fetch(`${API}/order`);
+fetch(`${API}/orders`);
 ```
 
 ### Response:
