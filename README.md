@@ -200,6 +200,7 @@ fetch(`${API}/users/register`, {
   body: JSON.stringify({
     username: "max2",
     password: "123",
+    role: "customer"
   }),
 });
 ```
