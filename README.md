@@ -83,7 +83,6 @@ fetch(`${API}/order`);
     "id": "8e45d339-71e5-4e48-b08d-23b3e8b66c78",
     "status": "COMPLETE",
     "userId": "f42d72d4-0bb3-48b1-9ee9-4f913823a013"
-   },
 "user": {
          "id": "16cc9326-84e7-436b-86a3-2caa9d72ffed",
          "userId": "f42d72d4-0bb3-48b1-9ee9-4f913823a013"
