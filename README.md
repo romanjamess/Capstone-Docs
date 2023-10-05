@@ -162,7 +162,7 @@ fetch(`${API}/menuItem/280c3437-69aa-4f35-bd67-2d11b5cf0596`);
 ### Request:
 
 ```js
-fetch(`${API}/posts/65ce7d00-1a16-41af-b333-58cc84d9ffd4`, {
+fetch(`${API}/users/65ce7d00-1a16-41af-b333-58cc84d9ffd4`, {
   method: "DELETE",
   headers: {
     Authorization:
